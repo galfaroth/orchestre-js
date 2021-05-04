@@ -8,7 +8,7 @@ class SoundLoop {
   private gainNode: GainNode;
   private nextMeasure: number = -1;
   public playing: boolean = false;
-  private source: AudioBufferSourceNode | undefined;
+  public source: AudioBufferSourceNode | undefined;
   private startTime: number = 0;
   private stopQueue: number;
   private stopTime: number = 0;
